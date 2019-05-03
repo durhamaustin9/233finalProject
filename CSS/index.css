@@ -1,0 +1,1184 @@
+/*index Page Style*/
+body  {
+  height: 100%;
+  width: max-content;
+  overflow: hidden;
+}
+
+.content-wrapper  {
+  height: 100%;
+  width: auto;
+}
+
+.swiper-button  {
+  position: fixed;
+  border: none;
+  top: 50%;
+  border-radius: .5em;
+  height: auto;
+  width: auto;
+  background-color: transparent;
+  font-size: 3em;
+  color: whitesmoke;
+  z-index: 3;
+}
+
+.swiper-button  {
+  display: none;
+}
+
+#left {
+  left: .5em;
+}
+
+#right  {
+  right: .5em;
+}
+
+.swiper-wrapper {
+  height: 100vh;
+  width: max-content;
+  display: flex;
+  z-index: 1;
+  transition-duration: 2s;
+}
+
+.swiper-page  {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+}
+
+/*StepOne Style*/
+  #stepOne h1 {
+    color: whitesmoke;
+    font-family: sf_pro_display_black;
+    height: 100%;
+    text-align: center;
+    line-height: 100vh;
+    display: none;
+  }
+
+  #stepOne h2 {
+    color: whitesmoke;
+    font-family: sf_pro_display_black;
+    text-align: center;
+    line-height: 100vh;
+    font-size: 10rem;
+    display: none;
+  }
+
+  .tutorial {
+    font-size: 4rem !important;
+    line-height: normal !important;
+  }
+
+  .container  {
+    max-width: 990px !important;
+    height: 154px;
+  }
+
+  #stepOne #part1  {
+    width: 607px;
+    position: absolute;
+    left: 50vw;
+    top: 50%;
+    margin-left: -303.5px !important;
+    margin-top: -76.5px;
+    text-align: left;
+    display: none;
+  }
+
+  #stepOne #part2 {
+    width: 340px;
+    position: absolute;
+    left: 50vw;
+    margin-left: -150px;
+    top: 50%;
+  }
+
+  #stepOne #stepOneStart  {
+    width: 340px;
+    position: absolute;
+    font-size: 1rem;
+    display: none;
+  }
+
+  #tutorialUnder1  {
+  height: 77px;
+  width: 340px;
+  position: absolute;
+  left: 50vw;
+  margin-left: -150px;
+  top: 50%;
+  display: none;
+  }
+
+  #tutorialUnder1 span {
+  height: 10px;
+  margin-top: 67px;
+  background-color: whitesmoke;
+  }
+
+
+  #tutorialUnder2 {
+    height: 77px;
+    width: 340px;
+    position: absolute;
+    display: none;
+  }
+
+  #tutorialUnder2 span  {
+    height: 10px;
+    margin-top: 67px;
+    background-color: whitesmoke;
+  }
+
+  .buttonsExplained {
+    color: whitesmoke;
+    width: 70vw;
+    position: absolute;
+    left: 50%;
+    margin-left: -35vw;
+    top: 50%;
+    height: 285px;
+    display: none;
+  }
+
+  #pointerLine  {
+    position: absolute;
+    height: 80px;
+    width: 70vw;
+  }
+
+  #pointerLeft  {
+    font-size: 5rem;
+    position: absolute;
+    left: 0;
+  }
+
+  #pointerRight {
+    font-size: 5rem;
+    position: absolute;
+    right: 0;
+  }
+
+  #connectorLine  {
+    width: 68vw;
+    background-color: whitesmoke;
+    height: 10px;
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 1vw;
+  }
+
+  #buttonExplanation  {
+    width: 360px;
+    font-size: 2rem;
+    margin: auto;
+    margin-top: 45px;
+  }
+
+  .definitionExplained  {
+    position: absolute;
+    height: 100vh;
+    width: 85vw;
+    display: flex;
+
+    top: 90px;
+    left: 50%;
+    margin-left: -42.5vw;
+  }
+
+  .definitionExplained h2 {
+    display: block !important;
+    line-height: normal !important;
+    position: absolute;
+  }
+
+  .definitionExplained p  {
+    color: whitesmoke;
+    position: absolute;
+  }
+
+  .definitionExplained span {
+    background-color: #9966ff;
+    opacity: .5;
+    position: absolute;
+  }
+
+  #definition1  {
+     width: 50%;
+    display: none;
+  }
+
+  #definition1 h2  {
+    font-family: sf_pro_display_regular;
+    font-size: 2rem !important;
+    height: max-content !important;
+    width: auto !important;
+  }
+
+  #definition1 span {
+    height: 39px;
+  }
+
+  #definition1 p  {
+    font-size: 2rem;
+    width: 360px;
+  }
+
+  #definition2  {
+    width: 50%;
+    display: none;
+  }
+
+  #definition2 h2 {
+    font-family: sf_pro_display_bold;
+    font-size: 1.5rem;
+    height: max-content;
+    width: auto;
+  }
+
+  #definition2 p  {
+    font-size: 1.5rem;
+  }
+
+  .textBoxExplained {
+    height: max-content;
+    width: 600px;
+    position: absolute;
+    left: 50%;
+    margin-left: -300px;
+    top: 50%;
+    margin-top: -142px;
+  }
+
+  #textBoxExample input {
+    background-color: #595959;
+    border: 2px solid #737373;
+    color: greenyellow;
+    text-align: center;
+    margin: auto;
+    width: 200px;
+  }
+
+  #textBoxExample {
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+    font-size: 1.5rem;
+    display: none;
+  }
+
+  #texBoxDefined  {
+    color: whitesmoke;
+    width: 400px;
+    height: max-content;
+    margin: auto;
+    margin-top: 20%;
+  }
+
+  #texBoxDefined h2 {
+    display: none;
+    text-align: left;
+    font-family: sf_pro_display_regular;
+    font-size: 2rem;
+    line-height: normal;
+  }
+
+  #texBoxDefined h3 {
+    display: none;
+    text-align: left;
+    font-family: sf_pro_display_regular;
+    font-size: 2rem;
+    line-height: normal;
+  }
+
+  #texBoxDefined h4 {
+    display: none;
+    text-align: left;
+    font-family: sf_pro_display_regular;
+    font-size: 2rem;
+    line-height: normal;
+  }
+
+  .getStarted {
+    height: min-content;
+    width: min-content;
+    line-height: normal;
+    left: 50%;
+    position: relative;
+    top: 34%;
+    margin-top: -17.5px;
+    margin-left: -355px;
+    display: none;
+  }
+
+  .getStarted #click  {
+    line-height: normal;
+    color: whitesmoke;
+    font-size: 2rem;
+    display: block;
+    height: min-content;
+    width: max-content;
+  }
+/*End StepOne Style*/
+
+/*StepTwo Style*/
+  #stepTwo {
+    color: whitesmoke;
+  }
+
+  .pageHeader {
+    width: 100vw;
+    min-width: 375px;
+    height: 10%;
+    text-align: center;
+  }
+
+  .pageHeader h1  {
+    font-size: 4rem;
+    font-family: sf_pro_display_black;
+    text-decoration: underline;
+  }
+
+  .pageBody {
+    width: 100vw;
+    min-width: 375px;
+    height: 90%;
+  }
+
+  .definitionsBody {
+    height: 100vh;
+    width: 30%;
+    float: right;
+    border: 2px solid #a6a6a6;
+    border-bottom: none;
+    padding: 10px;
+  }
+
+  .functionBody  {
+    height: 100vh;
+    width: 70%;
+    float: left;
+  }
+
+  #functionExplanation2 {
+    width: 541px;
+    margin: auto;
+    font-family: sf_pro_display_thinItalic;
+    margin-top: 5%;
+  }
+
+  #functionExplanation2 h2  {
+    font-size: 2.5rem;
+  }
+
+  .function2  {
+    height: 127px;
+    margin-top: 9% !important;
+    width: max-content;
+    margin: auto;
+  }
+
+  .function2 p  {
+    display: flex;
+    font-size: 2.5rem;
+    font-family: sf_pro_display_thin;
+  }
+
+
+  #jquery {
+    margin-right: 2.5px;
+  }
+
+  #jquery b {
+    height: 63px;
+    position: absolute;
+    background-color: #33ccff;
+    width: 35.5px;
+    opacity: 0.5;
+    display: none;
+  }
+
+  #document {
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+  }
+
+  #document b {
+    position: absolute;
+    height: 63px;
+    width: 164px;
+    background-color: #ff4d4d;
+    opacity: 0.5;
+    display: none;
+  }
+
+  #jqueryPart2  {
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+  }
+
+  #jqueryPart2 b  {
+    position: absolute;
+    height: 63px;
+    background-color: #33ccff;
+    width: 12px;
+    opacity: .5;
+    display: none;
+  }
+
+  #ready  {
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+  }
+
+  #ready b  {
+    height: 63px;
+    position: absolute;
+    width: 112px;
+    background-color: #0066ff;
+    opacity: .5;
+    display: none;
+  }
+
+  #function {
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+  }
+
+  #function b {
+    height: 63px;
+    width: 140px;
+    position: absolute;
+    opacity: .5;
+    background-color: #d24dff;
+    display: none;
+  }
+
+  #readyPart2 {
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+  }
+
+  #readyPart2 b {
+    height: 63px;
+    position: absolute;
+    width: 12px;
+    background-color: #0066ff;
+    opacity: .5;
+    display: none;
+  }
+
+  #functionPart2  {
+    margin-left: 2.5px;
+  }
+
+  #functionPart2 b  {
+    height: 63px;
+    width: 12px;
+    background-color: #d24dff;
+    opacity: .5;
+    position: absolute;
+    display: none;
+  }
+
+  #functionPart3  {
+    position: absolute;
+    margin-top: 1.4%;
+  }
+
+  #functionPart3 b  {
+    height: 63px;
+    width: 23px;
+    position: absolute;
+    background-color: #d24dff;
+    opacity: .5;
+    display: none;
+  }
+
+  #function2End {
+    position: absolute;
+    margin-top: 1.4%;
+    margin-left: .8%;
+  }
+
+  #jQueryDefinition {
+    display: none;
+  }
+
+  #jQueryDefinition h1  {
+    width: max-content;
+  }
+
+  #documentDefinition {
+    display: none;
+  }
+
+  #documentDefinition h1  {
+    width: max-content;
+  }
+
+  #readyDefinition  {
+    display: none;
+  }
+
+  #readyDefinition h1  {
+    width: max-content;
+  }
+
+  #functionDefinition {
+    display: none;
+  }
+
+  #functionDefinition h1  {
+    width: max-content;
+  }
+
+  #jQueryDefinition a  {
+    height: 52px;
+    width: 53px;
+    position: absolute;
+    background-color: #3cf;
+    opacity: .5;
+  }
+
+  #documentDefinition a  {
+    height: 52px;
+    width: 179px;
+    position: absolute;
+    background-color: #ff4d4d;
+    opacity: .5;
+  }
+
+  #readyDefinition a  {
+    height: 52px;
+    width: 138px;
+    position: absolute;
+    background-color: #0066ff;
+    opacity: .5;
+  }
+
+  #functionDefinition a  {
+    height: 52px;
+    width: 218px;
+    position: absolute;
+    background-color: #d24dff;
+    opacity: .5;
+  }
+/*End StepTwo Style*/
+
+/*StepThree Style*/
+  #stepThree  {
+    color: whitesmoke !important;
+  }
+
+  #functionExplanation3 {
+    width: 542px;
+    margin: auto;
+    font-family: sf_pro_display_thinItalic;
+    margin-top: 5%;
+  }
+
+  .function3  {
+    width: max-content;
+    height: 145px;
+    margin: auto;
+    margin-top: 9%;
+  }
+
+  .function3 p  {
+    font-size: 2.5rem;
+    font-family: sf_pro_display_thin;
+    display: flex;
+    height: inherit;
+  }
+
+  #jqueryInput  {
+    width: max-content;
+    display: flex;
+    z-index: 3;
+    margin-right: 2.5px;
+    height: max-content;
+  }
+
+  #jqueryInput input  {
+    width: 30px;
+    float: left;
+    height: 60px;
+    background-color: #404040;
+    border: 1px solid whitesmoke;
+    text-align: center;
+    caret-color: whitesmoke;
+    color: whitesmoke;
+  }
+
+  #window {
+    height: max-content;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+  }
+
+  #window b {
+    background-color: #ff4d4d;
+    height: 62px;
+    position: absolute;
+    width: 123px;
+    opacity: .5;
+  }
+
+  #jqueryInput2 {
+    height: max-content;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+  }
+
+  #scroll {
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    height: max-content;
+  }
+
+  #scroll b {
+    background-color: #0066ff;
+    height: 62px;
+    width: 101px;
+    position: absolute;
+    opacity: .5;
+  }
+
+  #functionInput  {
+    z-index: 3;
+    display: flex;
+    width: max-content;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    height: max-content;
+  }
+
+  #functionInput input  {
+    width: 132px;
+    height: 60px;
+    background-color: #404040;
+    border: 1px solid whitesmoke;
+    text-align: center;
+    caret-color: whitesmoke;
+    color: whitesmoke;
+  }
+
+  #scrollPart2  {
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    height: max-content;
+  }
+
+  #functionInput2  {
+    margin-left: 2.5px;
+    height: max-content;
+  }
+
+  #functionInput3 {
+    height: max-content;
+    position: absolute;
+    margin-top: 1.5%;
+  }
+
+  #function3End {
+    height: max-content;
+    position: absolute;
+    margin-top: 1.5%;
+    margin-left: .5%;
+  }
+
+  #windowDefinition a {
+    height: 48px;
+    width: 137px;
+    position: absolute;
+    background-color: #ff4d4d;
+    opacity: .5;
+  }
+
+  #scrollDefinition a {
+    height: 48px;
+    width: 105px;
+    position: absolute;
+    background-color: #0066ff;
+    opacity: .5;
+  }
+/*End StepThree Style*/
+
+/*StepFour Style*/
+  #pageHeader4 h1 {
+    color: whitesmoke;
+  }
+
+  #functionBody4  {
+    color: whitesmoke;
+  }
+
+  #functionExplanation4 {
+    width: 542px;
+    font-family: sf_pro_display_lightItalic;
+    margin: auto;
+    margin-top: 5%;
+  }
+
+  .function4  {
+    margin: auto;
+    height: max-content;
+    width: auto;
+    margin-top: 5%;
+  }
+
+  .function4 p  {
+    display: flex;
+    font-size: 2.5rem;
+    font-family: sf_pro_display_thin;
+    height: 310px;
+    width: 583px;
+    margin: auto;
+  }
+
+  #jquery4  {
+    display: flex;
+    height: 60px;
+  }
+
+  #jquery4 input  {
+    width: 30px;
+    height: 60px;
+    background-color: #404040;
+    border: 1px solid whitesmoke;
+    text-align: center;
+    caret-color: whitesmoke;
+    color: whitesmoke;
+  }
+
+  #document4  {
+    display: flex;
+    height: 60px;
+  }
+
+  #document4 input  {
+    width: 170px;
+    height: 60px;
+    background-color: #404040;
+    border: 1px solid whitesmoke;
+    text-align: center;
+    caret-color: whitesmoke;
+    color: whitesmoke;
+  }
+
+  #ready4 {
+    display: flex;
+    height: 60px;
+  }
+
+  #ready4 input {
+    width: 95px;
+    height: 60px;
+    background-color: #404040;
+    border: 1px solid whitesmoke;
+    text-align: center;
+    caret-color: whitesmoke;
+    color: whitesmoke;
+  }
+
+  #function4  {
+    display: flex;
+    height: 60px;
+    width: 200px;
+    position: absolute;
+    margin-left: 5.3%;
+  }
+
+  #function4 input  {
+    width: 132px;
+    height: 60px;
+    background-color: #404040;
+    border: 1px solid whitesmoke;
+    text-align: center;
+    caret-color: whitesmoke;
+    color: whitesmoke;
+  }
+
+  #jquery4-1  {
+    position: absolute;
+    margin-top: 70px;
+    height: 60px;
+    display: flex;
+    margin-left: .5%;
+  }
+
+  #jquery4-1 input  {
+    width: 30px;
+    height: 60px;
+    background-color: #404040;
+    border: 1px solid whitesmoke;
+    text-align: center;
+    caret-color: whitesmoke;
+    color: whitesmoke;
+  }
+
+  #window4  {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 1.14%;
+    height: 60px;
+    display: flex;
+  }
+
+  #window4 input  {
+    width: 132px;
+    height: 60px;
+    background-color: #404040;
+    border: 1px solid whitesmoke;
+    text-align: center;
+    caret-color: whitesmoke;
+    color: whitesmoke;
+  }
+
+  #scroll4  {
+    height: 60px;
+    display: flex;
+    margin-top: 70px;
+    position: absolute;
+    margin-left: 3.4%;
+  }
+
+  #scroll4 input  {
+    width: 85px;
+    height: 60px;
+    background-color: #404040;
+    border: 1px solid whitesmoke;
+    text-align: center;
+    caret-color: whitesmoke;
+    color: whitesmoke;
+  }
+
+  #function4-1  {
+    display: flex;
+    height: 60px;
+    margin-top: 70px;
+    position: absolute;
+    margin-left: 5.1%;
+  }
+
+  #function4-1 input  {
+    width: 132px;
+    height: 60px;
+    background-color: #404040;
+    border: 1px solid whitesmoke;
+    text-align: center;
+    caret-color: whitesmoke;
+    color: whitesmoke;
+  }
+
+  #variable4  {
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 1%;
+    height: 60px;
+  }
+
+  #variable4 b  {
+    height: 60px;
+    width: 48px;
+    position: absolute;
+    background-color: #ff4d4d;
+    opacity: .5;
+  }
+
+  #varName4 {
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 2%;
+    height: 60px;
+  }
+
+  #jquery4-2  {
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 4%;
+    height: 60px;
+  }
+
+  #this4  {
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 4.8%;
+    height: 60px;
+  }
+
+  #this4 b  {
+    height: 60px;
+    width: 55px;
+    position: absolute;
+    background-color: #06f;
+    opacity: .5;
+  }
+
+  #jquery4-3  {
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 5.8%;
+    height: 60px;
+  }
+
+  #scrollTop4 {
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 6.1%;
+    height: 60px;
+  }
+
+  #scrollTop4 b {
+    height: 60px;
+    width: 172px;
+    position: absolute;
+    background-color: #3cf;
+    opacity: .5;
+  }
+
+  #varEnd4  {
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 8.9%;
+  }
+
+  #functionEnd4 {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: .5%;
+    height: 60px;
+  }
+
+  #functionEnd4-1 {
+    position: absolute;
+    margin-top: 250px;
+    height: 60px;
+  }
+/*End StepFour Style*/
+
+/*Mobile Phone Style*/
+@media (min-width: 375px) {
+  #stepOne h1 {
+    font-size: 3rem;
+  }
+}
+/*End Mobile Phone Style*/
+
+/*Tablet Style*/
+@media (min-width: 768px) {
+  #stepOne h1 {
+    font-size: 6rem;
+  }
+}
+/*End Tablet Style*/
+
+/*Desktop Style*/
+@media (max-width: 1024px) {
+  /*StepOne Style*/
+    .container  {
+      max-width: 340px !important;
+      position: initial;
+      padding: 0;
+    }
+
+    #stepOne #stepOneStart  {
+      position: absolute;
+      display: none;
+    }
+
+    #tutorialUnder2 {
+      display: none;
+      position: absolute;
+    }
+
+    .definitionExplained  {
+      width: 80vw;
+      display: inline-block;
+      top: 5px;
+      margin-left: -40vw;
+      position: relative;
+    }
+
+    .definitionExplained h2 {
+      display: block !important;
+      line-height: normal !important;
+      position: absolute;
+    }
+
+    .definitionExplained p  {
+      color: whitesmoke;
+      position: absolute;
+    }
+
+    .definitionExplained span {
+      background-color: #9966ff;
+      opacity: .5;
+    }
+
+    #definition1  {
+      width: 100%;
+      height: 45%;
+      position: absolute;
+      top: 30%;
+    }
+
+    #definition1 h2  {
+      font-family: sf_pro_display_regular;
+      font-size: 2rem !important;
+      height: max-content !important;
+      width: auto !important;
+      left: 50%;
+      margin-left: -19.5px;
+      margin-top: 30px;
+    }
+
+    #definition1 p  {
+      font-size: 2rem;
+      width: 360px;
+      bottom: 10%;
+      left: 50%;
+      margin-left: -180px;
+      text-align: center;
+    }
+
+    #definition1 span {
+      height: 35px;
+      width: 45px;
+      position: initial;
+      margin: auto;
+      margin-top: 35px;
+    }
+
+    #definition2  {
+      width: 100%;
+      height: 30%;
+      position: absolute;
+      border: 3px dashed whitesmoke;
+      border-right: none;
+    }
+
+    #definition2 h2 {
+      font-size: 1.5rem;
+      height: max-content;
+      width: auto;
+      margin-left: 20px;
+      margin-top: 20px;
+    }
+
+    #definition2 p  {
+      font-size: 1.5rem;
+      bottom: 0;
+      width: 360px;
+      margin-left: 25px;
+    }
+
+    #definition2 span {
+      height: 35px;
+      width: 45px;
+      margin-top: 18px;
+      margin-left: 15px;
+    }
+  /*End StepOne Style*/
+}
+
+@media (min-width: 1024px) {
+  /*StepOne Style*/
+    #stepOne #part2 {
+      margin-left: -150px !important;
+    }
+
+    #stepOne #tutorialUnder1  {
+      margin-left: -150px !important;
+    }
+
+    #buttonExplanation  {
+      width: 360px;
+      font-size: 2rem;
+      margin: auto;
+      margin-top: 45px;
+    }
+
+    .definitionExplained  {
+      position: absolute;
+      height: 100vh;
+      width: 85vw;
+      display: flex;
+      top: 90px;
+      left: 50%;
+      margin-left: -42.5vw;
+    }
+
+    .definitionExplained span {
+      background-color: #9966ff;
+      opacity: .5;
+      position: absolute;
+    }
+
+    #definition1  {
+      width: 70%;
+    }
+
+    #definition1 h2  {
+      font-family: sf_pro_display_regular;
+      font-size: 2rem !important;
+      height: max-content !important;
+      width: auto !important;
+      left: 31%;
+      margin-left: -17px;
+      top: 25%;
+    }
+
+    #definition1 span {
+      height: 39px;
+      width: 40px;
+      left: 31%;
+      margin-left: -17px;
+      top: 26%;
+      margin-top: -5px;
+    }
+
+    #definition1 p  {
+      font-size: 2rem;
+      width: 360px;
+      top: 50%;
+      margin-top: -96px;
+      left: 36%;
+      margin-left: -180px;
+    }
+
+    #definition2  {
+      width: 30%;
+      border: 4px dashed whitesmoke;
+    }
+
+    #definition2 h2 {
+      font-family: sf_pro_display_bold;
+      font-size: 2rem;
+      height: 46px !important;
+      width: auto;
+      padding-left: 15px;
+      padding-top: 15px;
+    }
+
+    #definition2 p  {
+      font-size: 1.5rem;
+      top: 8%;
+      padding-top: 20px;
+      padding-left: 25px;
+    }
+
+    #definition2 span {
+      height: 40px;
+      width: 45px;
+      margin-top: 15px;
+      margin-left: 15px;
+    }
+  /*End StepOne Style*/
+}
+/*End Desktop Style*/

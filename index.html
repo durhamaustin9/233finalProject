@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Javascript - Basics</title>
+    <link rel="icon" href="Media/Images/favicon.ico" type="image/vnd.microsoft.icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/index.css">
+    <script rel="script" src="JQuery/index.js"> </script>
+  </head>
+
+  <div class="content-wrapper">
+    <button type="button" class="swiper-button" id="left" onclick="scrollHorizontal(this)">
+      <i class="fas fa-chevron-circle-left">  </i>
+    </button>
+
+    <button type="button" class="swiper-button" id="right" onclick="scrollHorizontal(this)">
+      <i class="fas fa-chevron-circle-right"> </i>
+    </button>
+
+    <div class="swiper-wrapper" id="page-wrapper">
+      <div class="swiper-page" id="stepOne">
+        <h1>Welcome To</h1>
+
+        <h2>JS</h2>
+
+        <h2 class="tutorial" id="part1">So Lets Get Started With</h2>
+
+        <div class="container" id="title">
+          <h2 class="tutorial" id="part2">The Basics</h2>
+
+          <div id="tutorialUnder1">
+            <span></span>
+          </div>  <!--End tutorialUnder1-->
+
+          <h2 class="tutorial" id="stepOneStart">Step One:</h2>
+
+          <div id="tutorialUnder2">
+            <span></span>
+          </div>  <!--End tutorialUnder2-->
+        </div>  <!--End container-->
+
+        <div class="buttonsExplained" id="buttonsExplained">
+          <div class="pointerLine" id="pointerLine">
+            <i class="fas fa-angle-left" id="pointerLeft"></i>
+
+            <span id="connectorLine"></span>
+
+            <i class="fas fa-angle-right" id="pointerRight"></i>
+          </div>  <!--End pointerLine-->
+
+          <a id="buttonExplanation">These are your Navigation Buttons. You can Click Them to Move to the Next Step or to Move to the Previous Step</a>
+        </div>  <!--End buttonsExplained-->
+
+        <div class="definitionExplained" id="definitionExplained">
+          <div id="definition1">
+            <h2>$()</h2>
+
+            <span id="exampleHighlighter1"></span>
+
+            <p>When Something is Highlighted Like This That Means That it is Defined under its Correlating Color</p>
+          </div>  <!--End definitions1-->
+
+          <div id="definition2">
+            <h2>$()</h2>
+
+            <span id="exampleHighlighter2"></span>
+
+            <p>Example Definition Box .....</p>
+          </div>  <!--End definitions2-->
+        </div>  <!--End definitionsExplained-->
+
+        <div class="textBoxExplained" id="textBoxExplained">
+          <label id="textBoxExample">
+            <input id="innerEx" type="text" name="testBox" value="testBox">
+          </label>
+
+          <div id="texBoxDefined">
+            <h2 id="textDefinition1">This is a textbox when these appear you will be prompted to fill them in with the correct information</h2>
+
+            <h3 id="textDefinition2">When the text inside is green this means that what you have typed so far is correct</h3>
+
+            <h4 id="textDefinition3">When the text inside is red this means that you have typed in the incorrect answer</h4>
+          </div>
+
+        </div>
+
+        <div class="getStarted" id="getStarted">
+          <h1 id="click">Now Lets Go to the Next Slide and Get Started</h1>
+        </div>  <!--End getStarted-->
+      </div>  <!--End stepOne-->
+
+      <div class="swiper-page" id="stepTwo">
+        <div class="pageHeader" id="pageHeader2">
+          <h1>Step Two</h1>
+        </div>  <!--End pageHeader-->
+
+        <div class="pageBody" id="pageBody2">
+          <section class="definitionsBody" id="definitionsBody2">
+            <div id="jQueryDefinition">
+              <h1><a></a>$()</h1>
+
+              <p>This is the jQuery function($ being short hand for jQuery).
+                It is used as a selector to choose where the following will run.</p>
+            </div>  <!--End jQueryDefinition-->
+
+            <div id="documentDefinition">
+              <h1><a></a>document</h1>
+
+              <p>The document property refers to the DOM Document(HTML,...)
+                currently loaded</p>
+            </div>  <!--End jQueryDefinition-->
+
+            <div id="readyDefinition">
+              <h1><a></a>.ready()</h1>
+
+              <p>This is a method. The ready method waits for the entire website to
+                load before the function(s) inside can run.</p>
+            </div>  <!--End readyDefinition-->
+
+            <div id="functionDefinition">
+              <h1><a></a>function ({ })</h1>
+
+              <p>This is an empty function designed to preform the tasks within
+                parentheses.</p>
+            </div>  <!--End functionDefinition-->
+          </section>
+
+          <article class="functionBody" id="functionBody2">
+            <div id="functionExplanation2">
+              <h1>The first thing to do in your JS document is to set up when
+                and where we want our functions to run.</h1>
+            </div>  <!--End functionExplanation-->
+
+            <div class="function2">
+              <p>
+                <a id="jquery"><b></b>$(</a>
+                <a id="document"><b></b>document</a>
+                <a id="jqueryPart2"><b></b>)</a>
+                <a id="ready"><b></b>.ready(</a>
+                <a id="function"><b></b>function(</a>
+                <a id="readyPart2"><b></b>)</a>
+                <a id="functionPart2"><b></b>{</a>
+                <a id="functionPart3"><b></b>})</a>
+                <a id="function2End"><b></b>;</a></p>
+            </div>
+          </article>
+        </div>  <!--End pageBody-->
+      </div>  <!--End stepTwo-->
+
+      <div class="swiper-page" id="stepThree">
+        <div class="pageHeader" id="pageHeader3">
+          <h1>Step Three</h1>
+        </div>  <!--End pageHeader-->
+
+        <div class="pageBody" id="pageBody3">
+          <section class="definitionsBody" id="definitionsBody3">
+            <div id="windowDefinition">
+              <h1><a></a>window</h1>
+
+              <p>The window interface represents the window containing the document.</p>
+            </div>
+
+            <div id="scrollDefinition">
+              <h1><a></a>.scroll</h1>
+
+              <p>The scroll method waits for the user to scroll in the window before running the
+              following function.</p>
+            </div>
+          </section>
+
+          <article class="functionBody" id="functionBody3">
+            <div id="functionExplanation3">
+              <h1>Now we need to set up the basics of our function, wear we want it to run
+              and what its conditions are to run.</h1>
+            </div>  <!--End functionExplanation3-->
+
+            <div class="function3">
+              <p>
+                <label id="jqueryInput">
+                  <input id="jQInput" type="text" name="$input" maxlength="1" value="">
+                  (
+                </label>
+                <a id="window"><b></b>window</a>
+                <a id="jqueryInput2">)</a>
+                <a id="scroll"><b></b>.scroll(</a>
+                <label id="functionInput">
+                  <input id="funcInput" type="text" name="functionInput" maxlength="8" value="">
+                  (
+                </label>
+                <a id="scrollPart2"><b></b>)</a>
+                <a id="functionInput2">{</a>
+                <a id="functionInput3">})</a>
+                <a id="function3End">;</a>
+              </p>
+            </div>  <!--End function3-->
+          </article>
+        </div>  <!--End pageBody-->
+      </div>  <!--End stepTwo-->
+
+      <div class="swiper-page" id="stepFour">
+        <div class="pageHeader" id="pageHeader4">
+          <h1>Step Four</h1>
+        </div>  <!--End pageHeader-->
+
+        <div class="pageBody" id="pageBody4">
+          <section class="definitionsBody" id="definitionsBody4">
+            <div id="variableDefinition">
+              <h1><a></a>var</h1>
+
+              <p></p>
+            </div>
+
+            <div id="thisDefinition">
+              <h1><a></a>this</h1>
+
+              <p></p>
+            </div>
+
+            <div id="scrollTopDefinition">
+              <h1><a></a>.scrollTop ()</h1>
+
+              <p></p>
+            </div>
+          </section>
+
+          <article class="functionBody" id="functionBody4">
+            <div id="functionExplanation4">
+              <h1>Now that we've set up the basics of our function, we need to set up the
+              variables ths our function will be based on.</h1>
+            </div>  <!--End functionExplanation4-->
+
+            <div class="function4">
+              <p>
+                <label id="jquery4">
+                  <input id="jQueryInput4" type="text" name="$input" maxlength="1" value="">
+                  (
+                </label>
+                <label id="document4">
+                  <input id="documentInput4" type="text" name="documentInput" maxlength="8" value="">
+                  )
+                </label>
+                <label id="ready4">
+                  .
+                  <input id="readyInput4" type="text" name="readyInput" maxlength="5" value="">
+                  (
+                </label>
+                <label id="function4">
+                  <input id="funcInput4" type="text" name="functionInput" maxlength="8" value="">
+                  (
+                  )
+                  {
+                </label>
+                <label id="jquery4-1">
+                  <input id="jQueryInput4.1" type="text" name="$input" maxlength="1" value="">
+                  (
+                </label>
+                <label id="window4">
+                  <input id="windowInput4" type="text" name="windowInput" maxlength="6" value="">
+                  )
+                </label>
+                <label id="scroll4">
+                  .
+                  <input id="scrollInput4" type="text" name="scrollInput" maxlength="6" value="">
+                  (
+                </label>
+                <label id="function4-1">
+                  <input id="funcInput4-1" type="text" name="functionInput" maxlength="8" value="">
+                  (
+                  )
+                  {
+                </label>
+                <a id="variable4"><b></b>var</a>
+                <a id="varName4">scroll =</a>
+                <a id="jquery4-2">$ (</a>
+                <a id="this4"><b></b>this</a>
+                <a id="jquery4-3">)</a>
+                <a id="scrollTop4"><b></b>.scrollTop()</a>
+                <a id="varEnd4">;</a>
+                <a id="functionEnd4">});</a>
+                <a id="functionEnd4-1">});</a>
+              </p>
+            </div>  <!--End function4-->
+          </article>
+        </div>  <!--End pageBody-->
+      </div>  <!--End stepFour-->
+
+      <div class="swiper-page" id="stepFive">
+        <div class="pageHeader" id="pageHeader5">
+          <h1>Step Five</h1>
+        </div>  <!--End pageHeader-->
+
+        <div class="pageBody" id="pageBody5">
+          <section class="definitionsBody" id="definitionsBody5">
+
+          </section>
+
+          <article class="functionBody" id="functionBody5">
+            <div id="functionExplanation5">
+
+            </div>  <!--End functionExplanation5-->
+
+            <div class="function5">
+
+            </div>  <!--End function5-->
+          </article>
+        </div>  <!--End pageBody-->
+      </div>  <!--End stepFive-->
+    </div>  <!--End swiper-wrapper-->
+  </div>  <!--End content-wrapper-->
+</html>

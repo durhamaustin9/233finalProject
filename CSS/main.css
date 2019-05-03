@@ -1,0 +1,132 @@
+/*main Style*/
+/*Font Links*/
+/*SanFransisco Links*/
+@font-face	{
+  font-family: sf;
+  src: url(../Media/Fonts/sanFransisco/sf.otf);
+}
+
+@font-face	{
+  font-family: sf_light;
+  src: url(../Media/Fonts/sanFransisco/sf_thin.otf);
+}
+
+@font-face  {
+  font-family: sf_bold;
+  src: url(../Media/Fonts/sanFransisco/sf_bold.otf);
+}
+/*End SanFransisco Links*/
+
+/*SanFransisco Pro Links*/
+/*Normal*/
+@font-face {
+  font-family: sf_pro_display_black;
+  src: url(../Media/Fonts/sfPro/Normal/sf_pro_display_black.otf);
+}
+
+@font-face {
+  font-family: sf_pro_display_heavy;
+  src: url(../Media/Fonts/sfPro/Normal/sf_pro_display_heavy.otf);
+}
+
+@font-face {
+  font-family: sf_pro_display_bold;
+  src: url(../Media/Fonts/sfPro/Normal/sf_pro_display_bold.otf);
+}
+
+@font-face {
+  font-family: sf_pro_display_semibold;
+  src: url(../Media/Fonts/sfPro/Normal/sf_pro_display_semibold.otf);
+}
+
+@font-face {
+  font-family: sf_pro_display_medium;
+  src: url(../Media/Fonts/sfPro/Normal/sf_pro_display_medium.otf);
+}
+
+@font-face {
+  font-family: sf_pro_display_regular;
+  src: url(../Media/Fonts/sfPro/Normal/sf_pro_display_regular.otf);
+}
+
+@font-face {
+  font-family: sf_pro_display_light;
+  src: url(../Media/Fonts/sfPro/Normal/sf_pro_display_light.otf);
+}
+
+@font-face {
+  font-family: sf_pro_display_thin;
+  src: url(../Media/Fonts/sfPro/Normal/sf_pro_display_thin.otf);
+}
+
+@font-face {
+  font-family: sf_pro_display_ultralight;
+  src: url(../Media/Fonts/sfPro/Normal/sf_pro_display_ultralight.otf);
+}
+
+/*Italic*/
+@font-face {
+  font-family: sf_pro_display_blackItalic;
+  src: url(../Media/Fonts/sfPro/Italic/sf_pro_display_blackItalic.otf);
+}
+
+@font-face {
+  font-family: sf_pro_display_heavyItalic;
+  src: url(../Media/Fonts/sfPro/Italic/sf_pro_display_heavyItalic.otf);
+}
+
+@font-face {
+  font-family: sf_pro_display_boldItalic;
+  src: url(../Media/Fonts/sfPro/Italic/sf_pro_display_boldItalic.otf);
+}
+
+@font-face {
+  font-family: sf_pro_display_semiboldItalic;
+  src: url(../Media/Fonts/sfPro/Italic/sf_pro_display_semiboldItalic.otf);
+}
+
+@font-face {
+  font-family: sf_pro_display_mediumItalic;
+  src: url(../Media/Fonts/sfPro/Italic/sf_pro_display_mediumItalic.otf);
+}
+
+@font-face {
+  font-family: sf_pro_display_regularItalic;
+  src: url(../Media/Fonts/sfPro/Italic/sf_pro_display_regularItalic.otf);
+}
+
+@font-face {
+  font-family: sf_pro_display_lightItalic;
+  src: url(../Media/Fonts/sfPro/Italic/sf_pro_display_lightItalic.otf);
+}
+
+@font-face {
+  font-family: sf_pro_display_thinItalic;
+  src: url(../Media/Fonts/sfPro/Italic/sf_pro_display_thinItalic.otf);
+}
+
+@font-face {
+  font-family: sf_pro_display_ultralightItalic;
+  src: url(../Media/Fonts/sfPro/Italic/sf_pro_display_ultralightItalic.otf);
+}
+/*End SanFransisco Pro Links*/
+/*Font Links*/
+
+/*Page Setup Style*/
+* {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+head {
+  display: none;
+}
+
+html  {
+  height: auto;
+  width: max-content;
+  overflow: hidden;
+  min-width: 375px;
+}
+/*End Page Setup Style*/

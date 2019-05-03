@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c97236f6-6292-425f-bcea-6e1094e26e54" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/FinalProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FinalProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JQuery/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/JQuery/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="FinalProject" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.4512551">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="450">
+                  <caret line="216" column="17" selection-start-line="216" selection-start-column="17" selection-end-line="216" selection-end-column="17" />
+                  <folding>
+                    <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#html#0;n#!!top" />
+                    <element signature="n#div#1;n#div#0;n#div#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#html#0;n#!!top" />
+                    <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#html#0;n#!!top" />
+                    <element signature="n#section#0;n#div#1;n#div#1;n#div#0;n#div#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#section#0;n#div#1;n#div#1;n#div#0;n#div#0;n#html#0;n#!!top" />
+                    <element signature="n#div#1;n#section#0;n#div#1;n#div#1;n#div#0;n#div#0;n#html#0;n#!!top" />
+                    <element signature="n#div#2;n#section#0;n#div#1;n#div#1;n#div#0;n#div#0;n#html#0;n#!!top" />
+                    <element signature="n#div#3;n#section#0;n#div#1;n#div#1;n#div#0;n#div#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#article#0;n#div#1;n#div#1;n#div#0;n#div#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#html#0;n#!!top" />
+                    <element signature="n#article#0;n#div#1;n#div#2;n#div#0;n#div#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#article#0;n#div#1;n#div#3;n#div#0;n#div#0;n#html#0;n#!!top" />
+                    <element signature="n#div#1;n#article#0;n#div#1;n#div#3;n#div#0;n#div#0;n#html#0;n#!!top" />
+                    <element signature="n#div#4;n#div#0;n#div#0;n#html#0;n#!!top" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/endPoint.html">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <splitter split-orientation="vertical" split-proportion="0.82462686">
+          <split-first>
+            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+              <file pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/CSS/main.css">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="2583">
+                      <caret line="123" column="1" selection-start-line="123" selection-start-column="1" selection-end-line="123" selection-end-column="1" />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/CSS/index.css">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="127">
+                      <caret line="740" column="17" lean-forward="true" selection-start-line="740" selection-start-column="17" selection-end-line="740" selection-end-column="17" />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/CSS/endPoint.css">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state>
+                      <caret column="7" selection-start-column="7" selection-end-column="7" />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-first>
+          <split-second>
+            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+              <file pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/JQuery/index.js">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="11">
+                      <caret line="146" column="24" selection-start-line="146" selection-start-column="24" selection-end-line="146" selection-end-column="24" />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/JQuery/endPoint.js">
+                  <provider selected="true" editor-type-id="text-editor" />
+                </entry>
+              </file>
+            </leaf>
+          </split-second>
+        </splitter>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>pageHea</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/new2.html" />
+        <option value="$PROJECT_DIR$/JQuery/new.js" />
+        <option value="$PROJECT_DIR$/CSS/new1.css" />
+        <option value="$PROJECT_DIR$/CSS/new2.css" />
+        <option value="$PROJECT_DIR$/JQuery/new1.js" />
+        <option value="$PROJECT_DIR$/JQuery/new2.js" />
+        <option value="$PROJECT_DIR$/new1.html" />
+        <option value="$PROJECT_DIR$/CSS/endPoint.css" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.html" />
+        <option value="$PROJECT_DIR$/CSS/main.css" />
+        <option value="$PROJECT_DIR$/JQuery/index.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/CSS/index.css" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="52" />
+    <option name="width" value="1440" />
+    <option name="height" value="822" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="FinalProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FinalProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Angular2Html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c97236f6-6292-425f-bcea-6e1094e26e54" name="Default Changelist" comment="" />
+      <created>1552884074760</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552884074760</updated>
+      <workItem from="1552884076103" duration="1136000" />
+      <workItem from="1553022495120" duration="387000" />
+      <workItem from="1553022940689" duration="4938000" />
+      <workItem from="1553288148434" duration="1464000" />
+      <workItem from="1553475861586" duration="540000" />
+      <workItem from="1554268265963" duration="1615000" />
+      <workItem from="1554346640102" duration="5601000" />
+      <workItem from="1554406499296" duration="241000" />
+      <workItem from="1554517982087" duration="3756000" />
+      <workItem from="1554603892021" duration="4086000" />
+      <workItem from="1554671909158" duration="1274000" />
+      <workItem from="1554673329621" duration="3352000" />
+      <workItem from="1554767612818" duration="3814000" />
+      <workItem from="1554773331901" duration="15797000" />
+      <workItem from="1554883350115" duration="929000" />
+      <workItem from="1555036815203" duration="1703000" />
+      <workItem from="1555038546468" duration="932000" />
+      <workItem from="1555039501600" duration="3145000" />
+      <workItem from="1555112619526" duration="19591000" />
+      <workItem from="1555273549322" duration="19692000" />
+      <workItem from="1555381650976" duration="2020000" />
+      <workItem from="1555392212361" duration="710000" />
+      <workItem from="1555443245065" duration="2701000" />
+      <workItem from="1555466768025" duration="5709000" />
+      <workItem from="1555480049389" duration="427000" />
+      <workItem from="1556224204929" duration="145000" />
+      <workItem from="1556224458918" duration="241000" />
+      <workItem from="1556225506860" duration="8000" />
+      <workItem from="1556225618688" duration="68000" />
+      <workItem from="1556226185762" duration="5000" />
+      <workItem from="1556226210900" duration="9000" />
+      <workItem from="1556226321695" duration="5936000" />
+      <workItem from="1556257171212" duration="1130000" />
+      <workItem from="1556311533633" duration="5248000" />
+      <workItem from="1556424715156" duration="1441000" />
+      <workItem from="1556426567087" duration="129000" />
+      <workItem from="1556429361856" duration="138000" />
+      <workItem from="1556429522270" duration="1058000" />
+      <workItem from="1556443150187" duration="1766000" />
+      <workItem from="1556481129336" duration="15593000" />
+      <workItem from="1556519650854" duration="659000" />
+      <workItem from="1556568013785" duration="5645000" />
+      <workItem from="1556682295285" duration="169000" />
+      <workItem from="1556682583958" duration="447000" />
+      <workItem from="1556692601923" duration="4240000" />
+      <workItem from="1556754030716" duration="89000" />
+      <workItem from="1556756634438" duration="21111000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="170994000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49913344" visible="true" weight="0.097946286" />
+      <window_info id="Structure" order="1" sideWeight="0.50189394" side_tool="true" weight="0.13107823" />
+      <window_info id="Favorites" order="2" sideWeight="0.50086653" side_tool="true" weight="0.13107823" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32909784" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4997367" weight="0.32909784" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.5397578" visible="true" weight="0.4839034" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50086206" side_tool="true" weight="0.12658228" />
+      <window_info anchor="bottom" id="Inspection Results" order="11" sideWeight="0.4997367" visible="true" weight="0.19003476" />
+      <window_info anchor="bottom" id="File Transfer" order="12" sideWeight="0.49913794" weight="0.19114688" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" weight="0.32960597" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18275861" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="File Transfer" order="0" sideWeight="0.49913794" visible="true" weight="0.12658228" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32997987" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4997367" weight="0.32997987" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.5397578" weight="0.1427094" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50086206" side_tool="true" visible="true" weight="0.12658228" />
+      <window_info anchor="bottom" id="Inspection Results" order="12" sideWeight="0.4997367" visible="true" weight="0.19003476" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/JQuery/new.js" />
+    <entry file="file://$PROJECT_DIR$/new1.html" />
+    <entry file="file://$PROJECT_DIR$/new2.html" />
+    <entry file="file://$PROJECT_DIR$/JQuery/new1.js" />
+    <entry file="file://$PROJECT_DIR$/JQuery/new2.js" />
+    <entry file="file://$PROJECT_DIR$/CSS/new2.css" />
+    <entry file="file://$PROJECT_DIR$/CSS/new1.css" />
+    <entry file="file:///var/folders/f3/8231hy1d7ms9444mljwp2v080000gn/T/com.apple.Notes/HardLinkURLTemp/1C5EC769-727F-49FA-856B-E43915FEFDFA/1554335885/BASICS.png" />
+    <entry file="file://$PROJECT_DIR$/../../133/Assignment 6/assign6-Final/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_ajax.googleapis.com_ajax_libs_jquery_3.3.1_jquery.js" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.html" />
+    <entry file="file://$USER_HOME$/Desktop/cadillac2/style.css" />
+    <entry file="file://$USER_HOME$/Desktop/cadillac/style.css" />
+    <entry file="file://$PROJECT_DIR$/endPoint.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2583">
+          <caret line="123" column="1" selection-start-line="123" selection-start-column="1" selection-end-line="123" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/endPoint.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQuery/endPoint.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQuery/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11">
+          <caret line="146" column="24" selection-start-line="146" selection-start-column="24" selection-end-line="146" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="216" column="17" selection-start-line="216" selection-start-column="17" selection-end-line="216" selection-end-column="17" />
+          <folding>
+            <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#html#0;n#!!top" />
+            <element signature="n#section#0;n#div#1;n#div#1;n#div#0;n#div#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#section#0;n#div#1;n#div#1;n#div#0;n#div#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#section#0;n#div#1;n#div#1;n#div#0;n#div#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#section#0;n#div#1;n#div#1;n#div#0;n#div#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#section#0;n#div#1;n#div#1;n#div#0;n#div#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#article#0;n#div#1;n#div#1;n#div#0;n#div#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#html#0;n#!!top" />
+            <element signature="n#article#0;n#div#1;n#div#2;n#div#0;n#div#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#article#0;n#div#1;n#div#3;n#div#0;n#div#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#article#0;n#div#1;n#div#3;n#div#0;n#div#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#div#0;n#div#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="740" column="17" lean-forward="true" selection-start-line="740" selection-start-column="17" selection-end-line="740" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
