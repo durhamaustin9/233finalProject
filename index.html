@@ -30,7 +30,7 @@
 
         <h2>JS</h2>
 
-        <h2 class="tutorial" id="part1">So Lets Get Started With</h2>
+        <h2 class="tutorial" id="part1">So Let's Get Started With</h2>
 
         <div class="container" id="title">
           <h2 class="tutorial" id="part2">The Basics</h2>
@@ -177,7 +177,7 @@
 
           <article class="functionBody" id="functionBody3">
             <div id="functionExplanation3">
-              <h1>Now we need to set up the basics of our function, wear we want it to run
+              <h1>Now we need to set up the basics of our function, where we want it to run
               and what its conditions are to run.</h1>
             </div>  <!--End functionExplanation3-->
 
@@ -214,26 +214,27 @@
             <div id="variableDefinition">
               <h1><a></a>var</h1>
 
-              <p></p>
+              <p>Variables are containers for storing data.</p>
             </div>
 
             <div id="thisDefinition">
               <h1><a></a>this</h1>
 
-              <p></p>
+              <p>This is a keyword, it refers to the object it belongs to.</p>
             </div>
 
             <div id="scrollTopDefinition">
               <h1><a></a>.scrollTop ()</h1>
 
-              <p></p>
+              <p>The scrollTop property sets or returns the number of pixels an element's
+                content is scrolled vertically.</p>
             </div>
           </section>
 
           <article class="functionBody" id="functionBody4">
             <div id="functionExplanation4">
               <h1>Now that we've set up the basics of our function, we need to set up the
-              variables ths our function will be based on.</h1>
+              variables that our function will be based on.</h1>
             </div>  <!--End functionExplanation4-->
 
             <div class="function4">
@@ -258,7 +259,7 @@
                   {
                 </label>
                 <label id="jquery4-1">
-                  <input id="jQueryInput4.1" type="text" name="$input" maxlength="1" value="">
+                  <input id="jQueryInput4-1" type="text" name="$input" maxlength="1" value="">
                   (
                 </label>
                 <label id="window4">
@@ -298,20 +299,85 @@
 
         <div class="pageBody" id="pageBody5">
           <section class="definitionsBody" id="definitionsBody5">
+            <div id="elementSelectDef5">
+              <h1><a></a>.getElementById()</h1>
 
+              <p>This is a method. The purpose of it is to return the element that has the ID attribute
+              with the specified value.</p>
+            </div>
+
+            <div id="ifDef5">
+              <h1><a></a>if () {}</h1>
+
+              <p>The if statement is used to specify a block of JavaScript code to be executed if a
+               condition is true.</p>
+            </div>
+
+            <div id="actionDef5">
+              <h1><a></a>.style</h1>
+
+              <p>This property is used in Java Script to change a specified element style following it.</p>
+            </div>
           </section>
 
           <article class="functionBody" id="functionBody5">
             <div id="functionExplanation5">
-
+              <h1>Everything for our basic function is set up. Now the last step is to use our
+              variable and tell our function what to do.</h1>
             </div>  <!--End functionExplanation5-->
 
             <div class="function5">
-
+              <p>
+                <a id="variable5">var scroll =</a>
+                <a id="this5">$(this).scrollTop();</a>
+                <a id="variable5-1">var x =</a>
+                <a id="elementSelector5">document</a>
+                <a id="elementSelector5-1"><b></b>.getElementById("test")</a>
+                <a id="elementSelector5-2">;</a>
+                <a id="ifStart5"><b></b>if (scroll > 100)  {</a>
+                <a id="action5-1">x</a>
+                <a id="action5-2"><b></b>.style.backgroundColor</a>
+                <a id="action5-end">= "blue";</a>
+                <a id="funct5End"><b></b>}</a>
+              </p>
             </div>  <!--End function5-->
           </article>
         </div>  <!--End pageBody-->
       </div>  <!--End stepFive-->
+
+      <div class="swiper-page" id="finalStep">
+        <section id="topLeft6">
+          <h1>Now your finally done, bellow your can test the function you wrote and to the right are
+          more sources.</h1>
+        </section>
+
+        <section id="topRight6">
+
+        </section>
+
+        <section id="bottomLeft6">
+          <label>
+            <textarea>
+              $(document).ready(function()  {
+              &nbsp; $(window).scroll(function() {
+              &nbsp;  var scroll = $(this).scrollTop();
+                      var x = document.getElementById("test");
+
+                      if (scroll > 100) {
+                        x.style.backgroundColor = "blue";
+                      }
+                });
+              });
+            </textarea>
+          </label>
+        </section>
+
+        <section id="bottomRight6">
+          <div id="test">
+
+          </div>
+        </section>
+      </div>
     </div>  <!--End swiper-wrapper-->
   </div>  <!--End content-wrapper-->
 </html>

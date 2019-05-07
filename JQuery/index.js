@@ -17,6 +17,7 @@ $(document).ready(function () {
   let buttonsExplained = document.getElementById("buttonsExplained");
   let definitionExplained1 = document.getElementById("definition1");
   let definitionExplained2 = document.getElementById("definition2");
+  let definitionExplained = document.getElementById("definitionExplained");
   let textBoxExample = document.getElementById("textBoxExample");
   let textBoxInnerExample = document.getElementById("innerEx");
   let textDefinition1 = document.getElementById("textDefinition1");
@@ -82,6 +83,8 @@ $(document).ready(function () {
 
                       });
                       $(definitionExplained2).delay(3000).fadeOut(2500,function () {
+                        $("#definitionExplained").css("display", "none");
+
                         $(textBoxExample).fadeIn(3000, function () {
                           $(textDefinition1).fadeIn(3000).delay(2000).fadeOut(3000, function () {
                             $(textDefinition2).fadeIn(3000).delay(2000).fadeOut(3000, function () {
@@ -123,9 +126,51 @@ $(document).ready(function () {
 
   $("#funcInput").keyup(function () {
     funcAnswerCheck()
+  });
+
+  //Step 4 Answer Check
+  $("#jQueryInput4").keyup(function () {
+    jQAnswer4()
+  });
+
+  $("#documentInput4").keyup(function () {
+    docAnswer4()
+  });
+
+  $("#readyInput4").keyup(function () {
+    readyAnswer4()
+  });
+
+  $("#funcInput4").keyup(function () {
+    funcAnswer4()
+  });
+
+  $("#jQueryInput4-1").keyup(function () {
+    jQAnswer41()
+  });
+
+  $("#windowInput4").keyup(function () {
+    winAnswer4()
+  });
+
+  $("#scrollInput4").keyup(function () {
+    scrollAnswer4()
+  });
+
+  $("#funcInput4-1").keyup(function () {
+    function41()
+  });
+  
+  $("#bottomRight6").scroll(function () {
+    var scroll = $(this).scrollTop();
+    var x = document.getElementById("test");
+
+    if (scroll > 100) {
+      x.style.backgroundColor = "blue";
+    } else {
+      x.style.backgroundColor = "red";
+    }
   })
-
-
 });
 
 function jqAnswerCheck()  {
@@ -161,6 +206,159 @@ function funcAnswerCheck()  {
     $("#funcInput").css("color", "red")
   }
 }
+
+//Step 4 Answer Checks
+function jQAnswer4() {
+  var jQValue = $("#jQueryInput4").val();
+
+  if (jQValue === "$")  {
+    $("#jQueryInput4").css("color", "greenyellow")
+  } else {
+    $("#jQueryInput4").css("color", "red")
+  }
+}
+
+function docAnswer4() {
+  var docValue = $("#documentInput4").val();
+
+  if (docValue === "d")  {
+    $("#documentInput4").css("color", "greenyellow")
+  } else if (docValue === "do")  {
+    $("#documentInput4").css("color", "greenyellow")
+  } else if (docValue === "doc") {
+    $("#documentInput4").css("color", "greenyellow")
+  } else if (docValue === "docu")  {
+    $("#documentInput4").css("color", "greenyellow")
+  } else if (docValue === "docum") {
+    $("#documentInput4").css("color", "greenyellow")
+  } else if (docValue === "docume")  {
+    $("#documentInput4").css("color", "greenyellow")
+  } else if (docValue === "documen") {
+    $("#documentInput4").css("color", "greenyellow")
+  } else if (docValue === "document")  {
+    $("#documentInput4").css("color", "greenyellow")
+  } else {
+    $("#documentInput4").css("color", "red")
+  }
+}
+
+function readyAnswer4() {
+  var readyValue = $("#readyInput4").val();
+
+  if (readyValue === "r")  {
+    $("#readyInput4").css("color", "greenyellow")
+  } else if (readyValue === "re")  {
+    $("#readyInput4").css("color", "greenyellow")
+  } else if (readyValue === "rea") {
+    $("#readyInput4").css("color", "greenyellow")
+  } else if (readyValue === "read")  {
+    $("#readyInput4").css("color", "greenyellow")
+  } else if (readyValue === "ready") {
+    $("#readyInput4").css("color", "greenyellow")
+  } else {
+    $("#readyInput4").css("color", "red")
+  }
+}
+
+function funcAnswer4()  {
+  var funcValue = $("#funcInput4").val();
+
+  if (funcValue === "f")  {
+    $("#funcInput4").css("color", "greenyellow")
+  } else if (funcValue === "fu")  {
+    $("#funcInput4").css("color", "greenyellow")
+  } else if (funcValue === "fun") {
+    $("#funcInput4").css("color", "greenyellow")
+  } else if (funcValue === "func")  {
+    $("#funcInput4").css("color", "greenyellow")
+  } else if (funcValue === "funct") {
+    $("#funcInput4").css("color", "greenyellow")
+  } else if (funcValue === "functi")  {
+    $("#funcInput4").css("color", "greenyellow")
+  } else if (funcValue === "functio") {
+    $("#funcInput4").css("color", "greenyellow")
+  } else if (funcValue === "function")  {
+    $("#funcInput4").css("color", "greenyellow")
+  } else {
+    $("#funcInput4").css("color", "red")
+  }
+}
+
+function jQAnswer41() {
+  var jQValue = $("#jQueryInput4-1").val();
+
+  if (jQValue === "$")  {
+    $("#jQueryInput4-1").css("color", "greenyellow")
+  } else {
+    $("#jQueryInput4-1").css("color", "red")
+  }
+}
+
+function winAnswer4() {
+  var winValue = $("#windowInput4").val();
+
+  if (winValue === "w")  {
+    $("#windowInput4").css("color", "greenyellow")
+  } else if (winValue === "wi")  {
+    $("#windowInput4").css("color", "greenyellow")
+  } else if (winValue === "win") {
+    $("#windowInput4").css("color", "greenyellow")
+  } else if (winValue === "wind")  {
+    $("#windowInput4").css("color", "greenyellow")
+  } else if (winValue === "windo") {
+    $("#windowInput4").css("color", "greenyellow")
+  } else if (winValue === "window")  {
+    $("#windowInput4").css("color", "greenyellow")
+  } else {
+    $("#windowInput4").css("color", "red")
+  }
+}
+
+function scrollAnswer4()  {
+  var scrollValue = $("#scrollInput4").val();
+
+  if (scrollValue === "s")  {
+    $("#scrollInput4").css("color", "greenyellow")
+  } else if (scrollValue === "sc")  {
+    $("#scrollInput4").css("color", "greenyellow")
+  } else if (scrollValue === "scr") {
+    $("#scrollInput4").css("color", "greenyellow")
+  } else if (scrollValue === "scro")  {
+    $("#scrollInput4").css("color", "greenyellow")
+  } else if (scrollValue === "scrol") {
+    $("#scrollInput4").css("color", "greenyellow")
+  } else if (scrollValue === "scroll")  {
+    $("#scrollInput4").css("color", "greenyellow")
+  } else {
+    $("#scrollInput4").css("color", "red")
+  }
+}
+
+function function41() {
+  var funcValue = $("#funcInput4-1").val();
+
+  if (funcValue === "f")  {
+    $("#funcInput4-1").css("color", "greenyellow")
+  } else if (funcValue === "fu")  {
+    $("#funcInput4-1").css("color", "greenyellow")
+  } else if (funcValue === "fun") {
+    $("#funcInput4-1").css("color", "greenyellow")
+  } else if (funcValue === "func")  {
+    $("#funcInput4-1").css("color", "greenyellow")
+  } else if (funcValue === "funct") {
+    $("#funcInput4-1").css("color", "greenyellow")
+  } else if (funcValue === "functi")  {
+    $("#funcInput4-1").css("color", "greenyellow")
+  } else if (funcValue === "functio") {
+    $("#funcInput4-1").css("color", "greenyellow")
+  } else if (funcValue === "function")  {
+    $("#funcInput4-1").css("color", "greenyellow")
+  } else {
+    $("#funcInput4-1").css("color", "red")
+  }
+}
+
+
 
 let currentSlide = 0;
 let transitionValue = 0;
